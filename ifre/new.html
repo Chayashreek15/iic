@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Siddaganga Institute of Technology</title>
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet" >
+  <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+<!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+  </head>
+
+  <body>
+    <section class="colored-section" id="title">
+  <!-- navigation bar -->
+  <div class="conatainer-fluid">
+        <form>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+              <a class="navbar-brand" href="">E-summit</a>
+              <button type="button" class="navbar-toggler"  data-toggle="collapse" data-target="#navbarToggler" aria-expanded="false" aria-controls="navbarToggler">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div id="navbarToggler" class="collapse  navbar-collapse  " >
+
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                  <a class="nav-link" href="#about"> About</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#event"> Events</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href=""> Speakers</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href=""> Contact</a>
+                  </li>
+                </ul>
+             </div>
+
+            </nav>
+          </form>
+        </div>
+      </section>
+
+
+<section id="main">
+  <!-- <main_heading> -->
+   <div class="text-center">
+      <div class="sticky">
+         <div class="jumbotron"><h1>Institution's Innovation Council<br><strong>E-SUMMIT 2020</strong></h1> </div></div>
+      <!-- esummit-logo -->
+        <img src="esummit.png" class="rounded mx-auto d-block" height="450px"width="800px" >
+
+<div>
+  <!-- Count down -->
+    <center><h2><center>Count down for our Event  </center></h2>
+          <table style="border:1px solid black;text-align:center;">
+              <tr style="font-size:60px">
+                <td id="days"><center>00</center></td>
+                <td id="hours"><center>00</center></td>
+                <td id="min"><center>00</center></td>
+                <td id="sec"><center>00</center></td>
+              </tr>
+              <tr>
+                <td><center>&ensp;&ensp;&ensp;&ensp;Days&ensp;&ensp;&ensp;&ensp;</center></td>
+                <td><center>&ensp;&ensp;&ensp;&ensp;Hours&ensp;&ensp;&ensp;</center></td>
+                <td><center>&ensp;&ensp;&ensp;&ensp;Minutes&ensp;&ensp;&ensp;&ensp;</center></td>
+                <td><center>&ensp;&ensp;&ensp;&ensp;seconds&ensp;&ensp;&ensp;&ensp;</center></td>
+              </tr>
+            </table>
+            </center>
+            <script type="text/javascript">
+
+
+              var total=new Date("Mar 20,2020 15:37:25").getTime();
+              function count()
+              {
+                var now = new Date();
+                var currentTime= now.getTime();
+
+                var diff=total-currentTime;
+                var s=Math.floor(diff/1000);
+                var m =Math.floor(s/60);
+                var h = Math.floor(m/60);
+                var d = Math.floor(h/24);
+
+              h=h%24;
+              m=m%60;
+              s=s%60;
+
+              h=(h<10)?"0"+h:h;
+              m=(m<10)?"0"+m:m;
+              s=(s<10)?"0"+s:s;
+              d=(d<10)?"0"+d:d;
+
+
+              document.getElementById("days").innerHTML=d;
+              document.getElementById("hours").innerHTML=h;
+              document.getElementById("min").innerHTML=m;
+              document.getElementById("sec").innerHTML=s;
+
+              setTimeout(count,1000);
+              }
+              count();
+
+            </script>
+            <br /><br / />  <br /><br />
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="colored-section" id="about">
+  <!-- content of event -->
+  <div class="container-fluid">
+      <div class="about"><center>
+           <h2>What E-summit is all about?</h2><h4><strong>IIC</strong> is the group which is directly under the collaboration with <strong><a href="https://mhrd.gov.in/">MHRD</a></strong>
+                   to promote <strong>INNOVATION</strong> in the campus.<br >We are coming up with a 3 day event E-SUMMIT 2020<br>The Entreprenurship Summit is the flagship event of IIC.<br />
+                   This is our first edition of E-summit.<br ><br /><br /></h4></div></div></div>
+</center>
+</div>
+</section>
+<br /><br />
+          <section id="event">
+            <!-- links to images -->
+                <div class="middle">
+                  <h2> <center><strong>  Events</strong>  </center></h2>
+
+                      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active container-fluid">
+                            <h3 class="testimonial-text"><center>Ideathon</center></h3>
+                            <a href="http://sit.ac.in/"><center><img class="testimonial-image" src="original.png"></a>
+                            <em> Great place to present your INNOVATION</em></center>
+                          </div>
+                          <div class="carousel-item container-fluid">
+                            <h3 class="testimonial-text"><center>Hackathon</center></h3>
+                            <center><img class="testimonial-image" src="hack.jpg">
+                            <em>Great place to present your INNOVATION</em></center>
+
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                        </a>
+                      </div>
+
+            </section>
+
+           </body>
+           </html>

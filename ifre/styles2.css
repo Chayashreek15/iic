@@ -1,0 +1,88 @@
+.sticky
+{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* padding: 50px; */
+
+}
+
+.nav-link
+{
+  display: block;
+  padding-left: 25px;
+  padding-right: 30px;
+  border-bottom: 1px solid #dee2e6;
+  /* margin-bottom: -1px; */
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25px;
+  border-top-right-radius: 0.25px;
+
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+   background-color: #e9ecef;
+  border-radius: 0.3rem;
+  background-image: url("file:///C:/Users/harsh/Desktop/web_development/abstract-connected-dots-technology-concept-260nw-580895128-01-01.jpeg");
+  background-size: cover;
+  color: white;
+}
+
+.text-center1 {
+
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right:auto;
+  width:25%;
+}
+.centre{
+  text-align: center;
+}
+
+#main{
+  background-color:   #fff;
+}
+#about{
+  background-color: #ff4c68;
+}
+h2{
+  font-family: "Ubuntu-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Ubuntu-white";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* EVENT */
+#event{
+  background-color: #ffe8a1;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
